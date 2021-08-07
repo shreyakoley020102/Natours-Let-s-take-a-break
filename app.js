@@ -18,6 +18,17 @@ const tours = JSON.parse(
     fs.readFileSync(`${__dirname}/dev-data/data/tours-simple.json`)
 )
 
+app.get('/api/v1/tours/:id',(req,res)=>{
+    console.log(req.params);
+    res.status(200).json({
+        status: 'success',
+        // results: tours.length,
+        // data:{
+        //     tours
+        // }
+    })
+})
+
 app.get('/api/v1/tours',(req,res)=>{
     res.status(200).json({
         status: 'success',
