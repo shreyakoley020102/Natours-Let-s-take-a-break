@@ -103,7 +103,7 @@ app
    .post(createTour)
 
 app
-    .route('/api/v1/tours:id')
+    .route('/api/v1/tours/:id')
     .get(getTour)
     .patch(updateTour)
     .delete(deleteTour)
