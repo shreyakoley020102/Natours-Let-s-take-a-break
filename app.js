@@ -110,6 +110,32 @@ const deleteTour = (req,res)=>{
     })
 }
 
+
+
+const getAllUsers = (req,res) =>{
+    res.status(500).json({
+        status: 'error',
+        message: 'This route is not defined!'
+    })
+}
+const getAllUsers = (req,res) =>{
+    res.status(500).json({
+        status: 'error',
+        message: 'This route is not defined!'
+    })
+}
+const getAllUsers = (req,res) =>{
+    res.status(500).json({
+        status: 'error',
+        message: 'This route is not defined!'
+    })
+}
+const getAllUsers = (req,res) =>{
+    res.status(500).json({
+        status: 'error',
+        message: 'This route is not defined!'
+    })
+}
 const getAllUsers = (req,res) =>{
     res.status(500).json({
         status: 'error',
