@@ -118,7 +118,7 @@ const getAllUsers = (req,res) =>{
         message: 'This route is not defined!'
     })
 }
-const getAllUsers = (req,res) =>{
+const getUsers = (req,res) =>{
     res.status(500).json({
         status: 'error',
         message: 'This route is not defined!'
