@@ -110,6 +110,10 @@ const deleteTour = (req,res)=>{
     })
 }
 
+const getAllUsers = (req,res) =>{
+    res.status
+}
+
 // app.get('/api/v1/tours',getAllTours)
 // app.post('/api/v1/tours', createTour)
 // app.get('/api/v1/tours/:id',getTour)
@@ -130,6 +134,17 @@ app
     .get(getTour)
     .patch(updateTour)
     .delete(deleteTour)
+
+app
+    .route('/api/v1/tours')
+    .get(getAllUsers)
+    .post(createUser)
+
+app
+    .route('/api/v1/tours/:id')
+    .get(getUser)
+    .patch(updateUser)
+    .delete(deleteUser)
 
 // 4) ATART THE SERVER
 
