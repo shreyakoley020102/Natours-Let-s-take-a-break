@@ -144,14 +144,15 @@ const deleteUser = (req,res) =>{
 }
 
 // 3) ROUTES
+
 const tourRouter = express.Router()
 
-app
+tourRouter
    .route('/api/v1/tours')
    .get(getAllTours)
    .post(createTour)
 
-app
+tourRouter
     .route('/api/v1/tours/:id')
     .get(getTour)
     .patch(updateTour)
